@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\GIT\\DAM\\ProyectosDI\\UD04DashBoard\\Dashboard\\DashboardDAL\\DashboardDAL.csproj": {}
+    "D:\\GIT\\DAM\\ProyectosDI\\UD04DashBoard\\Dashboard\\UtilidadesDashboard\\UtilidadesDashboard.csproj": {}
   },
   "projects": {
-    "D:\\GIT\\DAM\\ProyectosDI\\UD04DashBoard\\Dashboard\\DashboardDAL\\DashboardDAL.csproj": {
+    "D:\\GIT\\DAM\\ProyectosDI\\UD04DashBoard\\Dashboard\\UtilidadesDashboard\\UtilidadesDashboard.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\GIT\\DAM\\ProyectosDI\\UD04DashBoard\\Dashboard\\DashboardDAL\\DashboardDAL.csproj",
-        "projectName": "DashboardDAL",
-        "projectPath": "D:\\GIT\\DAM\\ProyectosDI\\UD04DashBoard\\Dashboard\\DashboardDAL\\DashboardDAL.csproj",
+        "projectUniqueName": "D:\\GIT\\DAM\\ProyectosDI\\UD04DashBoard\\Dashboard\\UtilidadesDashboard\\UtilidadesDashboard.csproj",
+        "projectName": "UtilidadesDashboard",
+        "projectPath": "D:\\GIT\\DAM\\ProyectosDI\\UD04DashBoard\\Dashboard\\UtilidadesDashboard\\UtilidadesDashboard.csproj",
         "packagesPath": "C:\\Users\\JOJOR\\.nuget\\packages\\",
-        "outputPath": "D:\\GIT\\DAM\\ProyectosDI\\UD04DashBoard\\Dashboard\\DashboardDAL\\obj\\",
+        "outputPath": "D:\\GIT\\DAM\\ProyectosDI\\UD04DashBoard\\Dashboard\\UtilidadesDashboard\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\JOJOR\\AppData\\Roaming\\NuGet\\NuGet.Config",
