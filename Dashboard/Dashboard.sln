@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30804.86
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dashboard", "Dashboard\Dashboard.csproj", "{5E84DD08-F987-48DA-B0CE-92BAA8869595}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UI", "UI", "{8ED0890A-48C3-4EC3-A810-607C60D0EA7A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DAL", "DAL", "{D1C256A1-41B7-4544-8714-566105BD5F86}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DLL", "DLL", "{2F28C9AE-8D82-456A-9AB7-E40C3CD85ED8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DashboardDAL", "DashboardDAL\DashboardDAL.csproj", "{D8FA98AD-6A8D-46A9-A387-F880259BD749}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Utilidades", "Utilidades", "{49AC1C61-AF22-4675-AD41-F4AA6A1F0482}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5E84DD08-F987-48DA-B0CE-92BAA8869595}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E84DD08-F987-48DA-B0CE-92BAA8869595}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5E84DD08-F987-48DA-B0CE-92BAA8869595}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5E84DD08-F987-48DA-B0CE-92BAA8869595}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D8FA98AD-6A8D-46A9-A387-F880259BD749}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D8FA98AD-6A8D-46A9-A387-F880259BD749}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D8FA98AD-6A8D-46A9-A387-F880259BD749}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D8FA98AD-6A8D-46A9-A387-F880259BD749}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D8FA98AD-6A8D-46A9-A387-F880259BD749} = {D1C256A1-41B7-4544-8714-566105BD5F86}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FF95E26D-7FCB-414D-8CB9-B8EA92A7A0D9}
+	EndGlobalSection
+EndGlobal
