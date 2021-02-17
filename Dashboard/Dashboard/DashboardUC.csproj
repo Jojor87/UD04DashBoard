@@ -105,5 +105,21 @@
   <ItemGroup>
     <None Include="Resources\usuario jpg.jpg" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DashboardBLL\DashboardBLL.csproj">
+      <Project>{a736645f-257f-4065-9ff7-bc54a6976a18}</Project>
+      <Name>DashboardBLL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\UtilidadesDashboard\UtilidadesDashboard.csproj">
+      <Project>{a3836ea6-a995-44c9-897b-ab99cc505133}</Project>
+      <Name>UtilidadesDashboard</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\comercial.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\comercial2.jpg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

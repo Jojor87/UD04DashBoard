@@ -10,3 +10,10 @@ D:\GIT\DAM\ProyectosDI\UD04DashBoard\Dashboard\Dashboard\obj\Debug\DashboardUC.c
 D:\GIT\DAM\ProyectosDI\UD04DashBoard\Dashboard\Dashboard\obj\Debug\DashboardUC.csproj.CoreCompileInputs.cache
 D:\GIT\DAM\ProyectosDI\UD04DashBoard\Dashboard\Dashboard\obj\Debug\Dashboard.exe
 D:\GIT\DAM\ProyectosDI\UD04DashBoard\Dashboard\Dashboard\obj\Debug\Dashboard.pdb
+D:\GIT\DAM\ProyectosDI\UD04DashBoard\Dashboard\Dashboard\bin\Debug\DashboardBLL.dll
+D:\GIT\DAM\ProyectosDI\UD04DashBoard\Dashboard\Dashboard\bin\Debug\UtilidadesDashboard.dll
+D:\GIT\DAM\ProyectosDI\UD04DashBoard\Dashboard\Dashboard\bin\Debug\DashboardDAL.dll
+D:\GIT\DAM\ProyectosDI\UD04DashBoard\Dashboard\Dashboard\bin\Debug\DashboardBLL.pdb
+D:\GIT\DAM\ProyectosDI\UD04DashBoard\Dashboard\Dashboard\bin\Debug\UtilidadesDashboard.pdb
+D:\GIT\DAM\ProyectosDI\UD04DashBoard\Dashboard\Dashboard\bin\Debug\DashboardDAL.pdb
+D:\GIT\DAM\ProyectosDI\UD04DashBoard\Dashboard\Dashboard\obj\Debug\DashboardUC.csproj.CopyComplete

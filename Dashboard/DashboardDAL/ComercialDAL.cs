@@ -11,7 +11,7 @@ namespace DashboardDAL
         {
             try
             {
-                var reader = new StreamReader(File.OpenRead(@"..\..\..\..\DashboardDAL\BD\1_datos_comerciales.csv"));
+                var reader = new StreamReader(File.OpenRead(@"..\..\..\DashboardDAL\BD\1_datos_comerciales.csv"));
                 // Salta la primera fila del archivo csv
                 reader.ReadLine();
                 while (!reader.EndOfStream)

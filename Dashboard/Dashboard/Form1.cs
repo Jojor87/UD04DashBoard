@@ -1,4 +1,5 @@
 ﻿using Dashboard.Controles_Usuario;
+using DashboardBLL;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -8,6 +9,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using UtilidadesDashboard;
 
 namespace Dashboard
 {
@@ -27,10 +29,70 @@ namespace Dashboard
 
         }
 
-        private void button1_Click(object sender, EventArgs e)
+
+        private void panel1_Paint(object sender, PaintEventArgs e)
         {
-            tlp.Controls.Add(gb, 1, 1); // Lo añade en la columna 1, fila 1
-            
+
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnComercial1_Click(object sender, EventArgs e)
+        {
+            tlp.Controls.Add(gb, 0, 0); // Lo añade en la columna 1, fila 1
+
+            ComercialVO comercial = new ComercialVO(1);
+
+            Console.WriteLine(" Se crea con id: " + comercial.Id);
+
+            ComercialBLL comercialDatos = new ComercialBLL();
+
+            Console.WriteLine(comercialDatos.gestionaDatos(comercial));
+            gb.comercial = comercialDatos.gestionaDatos(comercial);
+            pnSeleccion.Top = btnComercial1.Top;
+        }
+
+        private void tlpBase_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void btnComercial2_Click(object sender, EventArgs e)
+        {
+            tlp.Controls.Add(gb, 0, 0); // Lo añade en la columna 1, fila 1
+
+            ComercialVO comercial = new ComercialVO(2);
+
+            Console.WriteLine(" Se crea con id: " + comercial.Id);
+
+            ComercialBLL comercialDatos = new ComercialBLL();
+
+            Console.WriteLine(comercialDatos.gestionaDatos(comercial));
+            gb.comercial = comercialDatos.gestionaDatos(comercial);
+
+            pnSeleccion.Top = btnComercial2.Top;
+        }
+
+        private void btnComercial3_Click(object sender, EventArgs e)
+        {
+            tlp.Controls.Add(gb, 0, 0); // Lo añade en la columna 1, fila 1
+
+            ComercialVO comercial = new ComercialVO(3);
+
+            Console.WriteLine(" Se crea con id: " + comercial.Id);
+
+            ComercialBLL comercialDatos = new ComercialBLL();
+
+            Console.WriteLine(comercialDatos.gestionaDatos(comercial));
+            gb.comercial = comercialDatos.gestionaDatos(comercial);
         }
     }
 }

@@ -63,6 +63,26 @@ namespace Dashboard.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap comercial {
+            get {
+                object obj = ResourceManager.GetObject("comercial", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap comercial2 {
+            get {
+                object obj = ResourceManager.GetObject("comercial2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Logo_empresa_jpg {
             get {
                 object obj = ResourceManager.GetObject("Logo empresa jpg", resourceCulture);
