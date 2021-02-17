@@ -1,0 +1,131 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "DashboardBLL/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "DashboardDAL": "1.0.0",
+          "UtilidadesDashboard": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/DashboardBLL.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DashboardBLL.dll": {}
+        }
+      },
+      "DashboardDAL/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "UtilidadesDashboard": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/DashboardDAL.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DashboardDAL.dll": {}
+        }
+      },
+      "UtilidadesDashboard/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/UtilidadesDashboard.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/UtilidadesDashboard.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "DashboardBLL/1.0.0": {
+      "type": "project",
+      "path": "../DashboardBLL/DashboardBLL.csproj",
+      "msbuildProject": "../DashboardBLL/DashboardBLL.csproj"
+    },
+    "DashboardDAL/1.0.0": {
+      "type": "project",
+      "path": "../DashboardDAL/DashboardDAL.csproj",
+      "msbuildProject": "../DashboardDAL/DashboardDAL.csproj"
+    },
+    "UtilidadesDashboard/1.0.0": {
+      "type": "project",
+      "path": "../UtilidadesDashboard/UtilidadesDashboard.csproj",
+      "msbuildProject": "../UtilidadesDashboard/UtilidadesDashboard.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETCoreApp,Version=v3.1": [
+      "DashboardBLL >= 1.0.0",
+      "UtilidadesDashboard >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\JOJOR\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "D:\\GIT\\DAM\\ProyectosDI\\UD04DashBoard\\Dashboard\\UIConsola\\UIConsola.csproj",
+      "projectName": "UIConsola",
+      "projectPath": "D:\\GIT\\DAM\\ProyectosDI\\UD04DashBoard\\Dashboard\\UIConsola\\UIConsola.csproj",
+      "packagesPath": "C:\\Users\\JOJOR\\.nuget\\packages\\",
+      "outputPath": "D:\\GIT\\DAM\\ProyectosDI\\UD04DashBoard\\Dashboard\\UIConsola\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\JOJOR\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "netcoreapp3.1"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "projectReferences": {
+            "D:\\GIT\\DAM\\ProyectosDI\\UD04DashBoard\\Dashboard\\DashboardBLL\\DashboardBLL.csproj": {
+              "projectPath": "D:\\GIT\\DAM\\ProyectosDI\\UD04DashBoard\\Dashboard\\DashboardBLL\\DashboardBLL.csproj"
+            },
+            "D:\\GIT\\DAM\\ProyectosDI\\UD04DashBoard\\Dashboard\\UtilidadesDashboard\\UtilidadesDashboard.csproj": {
+              "projectPath": "D:\\GIT\\DAM\\ProyectosDI\\UD04DashBoard\\Dashboard\\UtilidadesDashboard\\UtilidadesDashboard.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netcoreapp3.1": {
+        "targetAlias": "netcoreapp3.1",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

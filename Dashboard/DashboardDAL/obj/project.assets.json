@@ -25,6 +25,16 @@
         "build": {
           "build/netstandard2.0/NETStandard.Library.targets": {}
         }
+      },
+      "UtilidadesDashboard/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/UtilidadesDashboard.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/UtilidadesDashboard.dll": {}
+        }
       }
     }
   },
@@ -172,11 +182,17 @@
         "netstandard.library.2.0.3.nupkg.sha512",
         "netstandard.library.nuspec"
       ]
+    },
+    "UtilidadesDashboard/1.0.0": {
+      "type": "project",
+      "path": "../UtilidadesDashboard/UtilidadesDashboard.csproj",
+      "msbuildProject": "../UtilidadesDashboard/UtilidadesDashboard.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETStandard,Version=v2.0": [
-      "NETStandard.Library >= 2.0.3"
+      "NETStandard.Library >= 2.0.3",
+      "UtilidadesDashboard >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -205,7 +221,11 @@
       "frameworks": {
         "netstandard2.0": {
           "targetAlias": "netstandard2.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "D:\\GIT\\DAM\\ProyectosDI\\UD04DashBoard\\Dashboard\\UtilidadesDashboard\\UtilidadesDashboard.csproj": {
+              "projectPath": "D:\\GIT\\DAM\\ProyectosDI\\UD04DashBoard\\Dashboard\\UtilidadesDashboard\\UtilidadesDashboard.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

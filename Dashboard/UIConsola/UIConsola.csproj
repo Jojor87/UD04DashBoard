@@ -1,0 +1,13 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DashboardBLL\DashboardBLL.csproj" />
+    <ProjectReference Include="..\UtilidadesDashboard\UtilidadesDashboard.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,14 @@
+D:\GIT\DAM\ProyectosDI\UD04DashBoard\Dashboard\DashboardBLL\bin\Debug\netstandard2.0\DashboardBLL.deps.json
+D:\GIT\DAM\ProyectosDI\UD04DashBoard\Dashboard\DashboardBLL\bin\Debug\netstandard2.0\DashboardBLL.dll
+D:\GIT\DAM\ProyectosDI\UD04DashBoard\Dashboard\DashboardBLL\bin\Debug\netstandard2.0\DashboardBLL.pdb
+D:\GIT\DAM\ProyectosDI\UD04DashBoard\Dashboard\DashboardBLL\bin\Debug\netstandard2.0\DashboardDAL.dll
+D:\GIT\DAM\ProyectosDI\UD04DashBoard\Dashboard\DashboardBLL\bin\Debug\netstandard2.0\UtilidadesDashboard.dll
+D:\GIT\DAM\ProyectosDI\UD04DashBoard\Dashboard\DashboardBLL\bin\Debug\netstandard2.0\DashboardDAL.pdb
+D:\GIT\DAM\ProyectosDI\UD04DashBoard\Dashboard\DashboardBLL\bin\Debug\netstandard2.0\UtilidadesDashboard.pdb
+D:\GIT\DAM\ProyectosDI\UD04DashBoard\Dashboard\DashboardBLL\obj\Debug\netstandard2.0\DashboardBLL.csprojAssemblyReference.cache
+D:\GIT\DAM\ProyectosDI\UD04DashBoard\Dashboard\DashboardBLL\obj\Debug\netstandard2.0\DashboardBLL.AssemblyInfoInputs.cache
+D:\GIT\DAM\ProyectosDI\UD04DashBoard\Dashboard\DashboardBLL\obj\Debug\netstandard2.0\DashboardBLL.AssemblyInfo.cs
+D:\GIT\DAM\ProyectosDI\UD04DashBoard\Dashboard\DashboardBLL\obj\Debug\netstandard2.0\DashboardBLL.csproj.CoreCompileInputs.cache
+D:\GIT\DAM\ProyectosDI\UD04DashBoard\Dashboard\DashboardBLL\obj\Debug\netstandard2.0\DashboardBLL.csproj.CopyComplete
+D:\GIT\DAM\ProyectosDI\UD04DashBoard\Dashboard\DashboardBLL\obj\Debug\netstandard2.0\DashboardBLL.dll
+D:\GIT\DAM\ProyectosDI\UD04DashBoard\Dashboard\DashboardBLL\obj\Debug\netstandard2.0\DashboardBLL.pdb

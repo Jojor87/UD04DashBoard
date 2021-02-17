@@ -1,0 +1,64 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "UIConsola/1.0.0": {
+        "dependencies": {
+          "DashboardBLL": "1.0.0",
+          "UtilidadesDashboard": "1.0.0"
+        },
+        "runtime": {
+          "UIConsola.dll": {}
+        }
+      },
+      "DashboardBLL/1.0.0": {
+        "dependencies": {
+          "DashboardDAL": "1.0.0",
+          "UtilidadesDashboard": "1.0.0"
+        },
+        "runtime": {
+          "DashboardBLL.dll": {}
+        }
+      },
+      "DashboardDAL/1.0.0": {
+        "dependencies": {
+          "UtilidadesDashboard": "1.0.0"
+        },
+        "runtime": {
+          "DashboardDAL.dll": {}
+        }
+      },
+      "UtilidadesDashboard/1.0.0": {
+        "runtime": {
+          "UtilidadesDashboard.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "UIConsola/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "DashboardBLL/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "DashboardDAL/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "UtilidadesDashboard/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

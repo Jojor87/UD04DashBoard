@@ -1,0 +1,9 @@
+D:\GIT\DAM\ProyectosDI\UD04DashBoard\Dashboard\UtilidadesDashboard\bin\Debug\netstandard2.0\UtilidadesDashboard.deps.json
+D:\GIT\DAM\ProyectosDI\UD04DashBoard\Dashboard\UtilidadesDashboard\bin\Debug\netstandard2.0\UtilidadesDashboard.dll
+D:\GIT\DAM\ProyectosDI\UD04DashBoard\Dashboard\UtilidadesDashboard\bin\Debug\netstandard2.0\UtilidadesDashboard.pdb
+D:\GIT\DAM\ProyectosDI\UD04DashBoard\Dashboard\UtilidadesDashboard\obj\Debug\netstandard2.0\UtilidadesDashboard.csprojAssemblyReference.cache
+D:\GIT\DAM\ProyectosDI\UD04DashBoard\Dashboard\UtilidadesDashboard\obj\Debug\netstandard2.0\UtilidadesDashboard.AssemblyInfoInputs.cache
+D:\GIT\DAM\ProyectosDI\UD04DashBoard\Dashboard\UtilidadesDashboard\obj\Debug\netstandard2.0\UtilidadesDashboard.AssemblyInfo.cs
+D:\GIT\DAM\ProyectosDI\UD04DashBoard\Dashboard\UtilidadesDashboard\obj\Debug\netstandard2.0\UtilidadesDashboard.csproj.CoreCompileInputs.cache
+D:\GIT\DAM\ProyectosDI\UD04DashBoard\Dashboard\UtilidadesDashboard\obj\Debug\netstandard2.0\UtilidadesDashboard.dll
+D:\GIT\DAM\ProyectosDI\UD04DashBoard\Dashboard\UtilidadesDashboard\obj\Debug\netstandard2.0\UtilidadesDashboard.pdb

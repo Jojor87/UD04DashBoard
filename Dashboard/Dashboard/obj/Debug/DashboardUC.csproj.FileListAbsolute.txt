@@ -1,0 +1,12 @@
+D:\GIT\DAM\ProyectosDI\UD04DashBoard\Dashboard\Dashboard\bin\Debug\Dashboard.exe.config
+D:\GIT\DAM\ProyectosDI\UD04DashBoard\Dashboard\Dashboard\bin\Debug\Dashboard.exe
+D:\GIT\DAM\ProyectosDI\UD04DashBoard\Dashboard\Dashboard\bin\Debug\Dashboard.pdb
+D:\GIT\DAM\ProyectosDI\UD04DashBoard\Dashboard\Dashboard\obj\Debug\DashboardUC.csprojAssemblyReference.cache
+D:\GIT\DAM\ProyectosDI\UD04DashBoard\Dashboard\Dashboard\obj\Debug\Dashboard.Controles_Usuario.DatosComercialUC.resources
+D:\GIT\DAM\ProyectosDI\UD04DashBoard\Dashboard\Dashboard\obj\Debug\Dashboard.Controles_Usuario.GraficoUC.resources
+D:\GIT\DAM\ProyectosDI\UD04DashBoard\Dashboard\Dashboard\obj\Debug\Dashboard.Form1.resources
+D:\GIT\DAM\ProyectosDI\UD04DashBoard\Dashboard\Dashboard\obj\Debug\Dashboard.Properties.Resources.resources
+D:\GIT\DAM\ProyectosDI\UD04DashBoard\Dashboard\Dashboard\obj\Debug\DashboardUC.csproj.GenerateResource.cache
+D:\GIT\DAM\ProyectosDI\UD04DashBoard\Dashboard\Dashboard\obj\Debug\DashboardUC.csproj.CoreCompileInputs.cache
+D:\GIT\DAM\ProyectosDI\UD04DashBoard\Dashboard\Dashboard\obj\Debug\Dashboard.exe
+D:\GIT\DAM\ProyectosDI\UD04DashBoard\Dashboard\Dashboard\obj\Debug\Dashboard.pdb
