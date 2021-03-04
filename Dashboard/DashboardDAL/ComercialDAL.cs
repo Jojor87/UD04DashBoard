@@ -44,7 +44,51 @@ namespace DashboardDAL
                 Console.WriteLine("Se ha leido correctamente");
 
             }
-            //return "No se ha podido leeer";
+        }
+
+        public void leerFacturacionComercial(Facturacion factura)
+        {
+            int[] mes = new int[12];
+            int k = 0;
+            try
+            {
+                var reader = new StreamReader(File.OpenRead(@"..\..\..\DashboardDAL\BD\2_facturacion_comercial.csv"));
+                // Salta la primera fila del archivo csv
+                reader.ReadLine();
+                while (!reader.EndOfStream)
+                {
+                    var line = reader.ReadLine();
+                    var values = line.Split(',');
+
+                    // Se recorre todo el contenido de values y se guardan los valores en linea menos la primera columna(el id)
+                    for (int i = 1; i <= values.Length; i++)
+                    {
+                        // Si el id es igual al que se le pasa guarda los valores
+                        if (factura.Id == int.Parse(values[0]) && factura.Empresa == int.Parse(values[1]))
+                        {
+                            for (int j = 2; i <= values.Length; j++)
+                            {
+                                factura.mes[k] = int.Parse(values[j]);
+                                Console.WriteLine(factura.mes[k]);
+                                k++;
+                                
+                            }
+                            
+                        }
+                    }
+                }
+                reader.Close();
+                //return comercial.ToString();
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine("Exception: " + e.Message);
+            }
+            finally
+            {
+                Console.WriteLine("Se ha leido correctamente");
+
+            }
         }
     }
 }

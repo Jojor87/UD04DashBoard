@@ -30,12 +30,10 @@ namespace Dashboard.Controles_Usuario
         private void InitializeComponent()
         {
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
-            this.gbComercial = new System.Windows.Forms.GroupBox();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.tbComercial = new System.Windows.Forms.TextBox();
             this.tableLayoutPanel1.SuspendLayout();
-            this.gbComercial.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
             // tableLayoutPanel1
@@ -43,48 +41,39 @@ namespace Dashboard.Controles_Usuario
             this.tableLayoutPanel1.ColumnCount = 1;
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100F));
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.tableLayoutPanel1.Controls.Add(this.gbComercial, 0, 0);
+            this.tableLayoutPanel1.Controls.Add(this.groupBox1, 0, 0);
             this.tableLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tableLayoutPanel1.Location = new System.Drawing.Point(0, 0);
             this.tableLayoutPanel1.Name = "tableLayoutPanel1";
             this.tableLayoutPanel1.RowCount = 1;
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.tableLayoutPanel1.Size = new System.Drawing.Size(520, 341);
+            this.tableLayoutPanel1.Size = new System.Drawing.Size(900, 600);
             this.tableLayoutPanel1.TabIndex = 0;
             // 
-            // gbComercial
+            // groupBox1
             // 
-            this.gbComercial.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.gbComercial.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.gbComercial.Controls.Add(this.pictureBox1);
-            this.gbComercial.Controls.Add(this.tbComercial);
-            this.gbComercial.Location = new System.Drawing.Point(3, 3);
-            this.gbComercial.Name = "gbComercial";
-            this.gbComercial.Size = new System.Drawing.Size(514, 335);
-            this.gbComercial.TabIndex = 0;
-            this.gbComercial.TabStop = false;
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = global::Dashboard.Properties.Resources.usuario_jpg;
-            this.pictureBox1.Location = new System.Drawing.Point(198, 0);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(134, 105);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 1;
-            this.pictureBox1.TabStop = false;
+            this.groupBox1.BackColor = System.Drawing.Color.Teal;
+            this.groupBox1.Controls.Add(this.tbComercial);
+            this.groupBox1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.groupBox1.Location = new System.Drawing.Point(3, 3);
+            this.groupBox1.Name = "groupBox1";
+            this.groupBox1.Size = new System.Drawing.Size(894, 594);
+            this.groupBox1.TabIndex = 0;
+            this.groupBox1.TabStop = false;
+            this.groupBox1.Text = "Comercial";
             // 
             // tbComercial
             // 
-            this.tbComercial.Location = new System.Drawing.Point(-3, 111);
+            this.tbComercial.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.tbComercial.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.tbComercial.Location = new System.Drawing.Point(221, 174);
             this.tbComercial.Multiline = true;
             this.tbComercial.Name = "tbComercial";
-            this.tbComercial.Size = new System.Drawing.Size(517, 218);
-            this.tbComercial.TabIndex = 0;
-            this.tbComercial.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
+            this.tbComercial.ReadOnly = true;
+            this.tbComercial.Size = new System.Drawing.Size(454, 392);
+            this.tbComercial.TabIndex = 2;
+            this.tbComercial.TextChanged += new System.EventHandler(this.textBox1_TextChanged_1);
             // 
             // DatosComercialUC
             // 
@@ -92,11 +81,10 @@ namespace Dashboard.Controles_Usuario
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.Controls.Add(this.tableLayoutPanel1);
             this.Name = "DatosComercialUC";
-            this.Size = new System.Drawing.Size(520, 341);
+            this.Size = new System.Drawing.Size(900, 600);
             this.tableLayoutPanel1.ResumeLayout(false);
-            this.gbComercial.ResumeLayout(false);
-            this.gbComercial.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            this.groupBox1.ResumeLayout(false);
+            this.groupBox1.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -104,8 +92,7 @@ namespace Dashboard.Controles_Usuario
         #endregion
 
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel1;
-        private System.Windows.Forms.GroupBox gbComercial;
+        private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.TextBox tbComercial;
-        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }

@@ -32,42 +32,64 @@ namespace Dashboard.Controles_Usuario
             System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea1 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
             System.Windows.Forms.DataVisualization.Charting.Legend legend1 = new System.Windows.Forms.DataVisualization.Charting.Legend();
             System.Windows.Forms.DataVisualization.Charting.Series series1 = new System.Windows.Forms.DataVisualization.Charting.Series();
-            this.chartFacturacion = new System.Windows.Forms.DataVisualization.Charting.Chart();
-            ((System.ComponentModel.ISupportInitialize)(this.chartFacturacion)).BeginInit();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea2 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend2 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series2 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            this.chFactura1 = new System.Windows.Forms.DataVisualization.Charting.Chart();
+            this.chFactura2 = new System.Windows.Forms.DataVisualization.Charting.Chart();
+            ((System.ComponentModel.ISupportInitialize)(this.chFactura1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.chFactura2)).BeginInit();
             this.SuspendLayout();
             // 
-            // chartFacturacion
+            // chFactura1
             // 
             chartArea1.Name = "ChartArea1";
-            this.chartFacturacion.ChartAreas.Add(chartArea1);
-            this.chartFacturacion.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.chFactura1.ChartAreas.Add(chartArea1);
             legend1.Name = "Legend1";
-            this.chartFacturacion.Legends.Add(legend1);
-            this.chartFacturacion.Location = new System.Drawing.Point(0, 0);
-            this.chartFacturacion.Name = "chartFacturacion";
+            this.chFactura1.Legends.Add(legend1);
+            this.chFactura1.Location = new System.Drawing.Point(3, 3);
+            this.chFactura1.Name = "chFactura1";
             series1.ChartArea = "ChartArea1";
             series1.Legend = "Legend1";
             series1.Name = "Series1";
-            this.chartFacturacion.Series.Add(series1);
-            this.chartFacturacion.Size = new System.Drawing.Size(737, 489);
-            this.chartFacturacion.TabIndex = 0;
-            this.chartFacturacion.Text = "chart1";
-            this.chartFacturacion.Click += new System.EventHandler(this.chartFacturacion_Click);
+            this.chFactura1.Series.Add(series1);
+            this.chFactura1.Size = new System.Drawing.Size(449, 594);
+            this.chFactura1.TabIndex = 0;
+            this.chFactura1.Text = "chart1";
+            this.chFactura1.Click += new System.EventHandler(this.chart1_Click);
+            // 
+            // chFactura2
+            // 
+            chartArea2.Name = "ChartArea1";
+            this.chFactura2.ChartAreas.Add(chartArea2);
+            legend2.Name = "Legend1";
+            this.chFactura2.Legends.Add(legend2);
+            this.chFactura2.Location = new System.Drawing.Point(451, 3);
+            this.chFactura2.Name = "chFactura2";
+            series2.ChartArea = "ChartArea1";
+            series2.Legend = "Legend1";
+            series2.Name = "Series1";
+            this.chFactura2.Series.Add(series2);
+            this.chFactura2.Size = new System.Drawing.Size(449, 594);
+            this.chFactura2.TabIndex = 1;
             // 
             // GraficoUC
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.Controls.Add(this.chartFacturacion);
+            this.Controls.Add(this.chFactura2);
+            this.Controls.Add(this.chFactura1);
             this.Name = "GraficoUC";
-            this.Size = new System.Drawing.Size(737, 489);
-            ((System.ComponentModel.ISupportInitialize)(this.chartFacturacion)).EndInit();
+            this.Size = new System.Drawing.Size(900, 600);
+            ((System.ComponentModel.ISupportInitialize)(this.chFactura1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.chFactura2)).EndInit();
             this.ResumeLayout(false);
 
         }
 
         #endregion
 
-        private System.Windows.Forms.DataVisualization.Charting.Chart chartFacturacion;
+        private System.Windows.Forms.DataVisualization.Charting.Chart chFactura1;
+        private System.Windows.Forms.DataVisualization.Charting.Chart chFactura2;
     }
 }

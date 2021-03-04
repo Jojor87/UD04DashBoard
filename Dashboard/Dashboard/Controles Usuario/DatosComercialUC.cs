@@ -12,21 +12,24 @@ namespace Dashboard.Controles_Usuario
 {
     public partial class DatosComercialUC : UserControl
     {
-        public string comercial;
-
         public DatosComercialUC()
         {
             InitializeComponent();
         }
 
-        private void groupBox1_Enter(object sender, EventArgs e)
-        {
-
-        }
-
-        private void textBox1_TextChanged(object sender, EventArgs e)
+        public void pintaTextBox(string comercial) 
         {
             tbComercial.Text = comercial;
+        }
+
+        public void pintaTextBoxFacturacion(string factura1, string factura2)
+        {
+            tbComercial.Text = factura1 + " y " + factura2;
+        }
+
+        private void textBox1_TextChanged_1(object sender, EventArgs e)
+        {
+            //tbComercial.Text = comercial;
         }
     }
 }

@@ -33,6 +33,7 @@ namespace Dashboard
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel2 = new System.Windows.Forms.Panel();
             this.panel3 = new System.Windows.Forms.Panel();
+            this.pnSeleccion = new System.Windows.Forms.Panel();
             this.label6 = new System.Windows.Forms.Label();
             this.btnComercial3 = new System.Windows.Forms.Button();
             this.label7 = new System.Windows.Forms.Label();
@@ -45,7 +46,10 @@ namespace Dashboard
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.tlpBase = new System.Windows.Forms.TableLayoutPanel();
-            this.pnSeleccion = new System.Windows.Forms.Panel();
+            this.btnDatosC = new System.Windows.Forms.Button();
+            this.btnFacturación = new System.Windows.Forms.Button();
+            this.btnResumenV = new System.Windows.Forms.Button();
+            this.pnIzq = new System.Windows.Forms.Panel();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel3.SuspendLayout();
@@ -55,6 +59,10 @@ namespace Dashboard
             // 
             this.panel1.BackColor = System.Drawing.Color.DarkSlateGray;
             this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.panel1.Controls.Add(this.pnIzq);
+            this.panel1.Controls.Add(this.btnResumenV);
+            this.panel1.Controls.Add(this.btnFacturación);
+            this.panel1.Controls.Add(this.btnDatosC);
             this.panel1.Controls.Add(this.pictureBox1);
             this.panel1.Controls.Add(this.panel2);
             this.panel1.Location = new System.Drawing.Point(2, 1);
@@ -99,6 +107,15 @@ namespace Dashboard
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(953, 165);
             this.panel3.TabIndex = 1;
+            // 
+            // pnSeleccion
+            // 
+            this.pnSeleccion.BackColor = System.Drawing.Color.SpringGreen;
+            this.pnSeleccion.Location = new System.Drawing.Point(177, 41);
+            this.pnSeleccion.Name = "pnSeleccion";
+            this.pnSeleccion.Size = new System.Drawing.Size(125, 11);
+            this.pnSeleccion.TabIndex = 12;
+            this.pnSeleccion.Visible = false;
             // 
             // label6
             // 
@@ -248,13 +265,53 @@ namespace Dashboard
             this.tlpBase.TabIndex = 2;
             this.tlpBase.Paint += new System.Windows.Forms.PaintEventHandler(this.tlpBase_Paint);
             // 
-            // pnSeleccion
+            // btnDatosC
             // 
-            this.pnSeleccion.BackColor = System.Drawing.Color.SpringGreen;
-            this.pnSeleccion.Location = new System.Drawing.Point(73, 152);
-            this.pnSeleccion.Name = "pnSeleccion";
-            this.pnSeleccion.Size = new System.Drawing.Size(225, 11);
-            this.pnSeleccion.TabIndex = 12;
+            this.btnDatosC.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnDatosC.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnDatosC.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.btnDatosC.Location = new System.Drawing.Point(3, 192);
+            this.btnDatosC.Name = "btnDatosC";
+            this.btnDatosC.Size = new System.Drawing.Size(245, 187);
+            this.btnDatosC.TabIndex = 3;
+            this.btnDatosC.Text = "Datos del comercial";
+            this.btnDatosC.UseVisualStyleBackColor = true;
+            this.btnDatosC.Click += new System.EventHandler(this.btnDatosC_Click);
+            // 
+            // btnFacturación
+            // 
+            this.btnFacturación.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnFacturación.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnFacturación.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.btnFacturación.Location = new System.Drawing.Point(3, 385);
+            this.btnFacturación.Name = "btnFacturación";
+            this.btnFacturación.Size = new System.Drawing.Size(245, 187);
+            this.btnFacturación.TabIndex = 4;
+            this.btnFacturación.Text = "Facturación total anual a cada empresa";
+            this.btnFacturación.UseVisualStyleBackColor = true;
+            this.btnFacturación.Click += new System.EventHandler(this.btnFacturación_Click);
+            // 
+            // btnResumenV
+            // 
+            this.btnResumenV.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnResumenV.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnResumenV.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.btnResumenV.Location = new System.Drawing.Point(3, 578);
+            this.btnResumenV.Name = "btnResumenV";
+            this.btnResumenV.Size = new System.Drawing.Size(245, 187);
+            this.btnResumenV.TabIndex = 5;
+            this.btnResumenV.Text = "Resumen de ventas";
+            this.btnResumenV.UseVisualStyleBackColor = true;
+            this.btnResumenV.Click += new System.EventHandler(this.btnResumenV_Click);
+            // 
+            // pnIzq
+            // 
+            this.pnIzq.BackColor = System.Drawing.Color.SpringGreen;
+            this.pnIzq.Location = new System.Drawing.Point(247, 192);
+            this.pnIzq.Name = "pnIzq";
+            this.pnIzq.Size = new System.Drawing.Size(11, 187);
+            this.pnIzq.TabIndex = 13;
+            this.pnIzq.Visible = false;
             // 
             // Form1
             // 
@@ -295,6 +352,10 @@ namespace Dashboard
         private System.Windows.Forms.Button btnComercial2;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Panel pnSeleccion;
+        private System.Windows.Forms.Button btnDatosC;
+        private System.Windows.Forms.Panel pnIzq;
+        private System.Windows.Forms.Button btnResumenV;
+        private System.Windows.Forms.Button btnFacturación;
     }
 }
 

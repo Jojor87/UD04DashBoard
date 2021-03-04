@@ -20,5 +20,14 @@ namespace DashboardBLL
 
             return comercial.ToString();
         }
+
+        public string gestionaFactura(Facturacion  factura)
+        {
+
+            ComercialDAL comercialDatos = new ComercialDAL();
+            comercialDatos.leerFacturacionComercial(factura);
+
+            return factura.ToString();
+        }
     }
 }
